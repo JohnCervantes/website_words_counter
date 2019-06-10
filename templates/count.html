@@ -1,0 +1,11 @@
+<input type='button' value='go back' onclick=" location.href='{% url 'home' %}' "></input>
+
+count page
+<br>
+
+{% for word,count in full_text %}
+{{word}}- {{count}}
+<br>
+{% endfor %}
+
+

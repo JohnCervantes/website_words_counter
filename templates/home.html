@@ -1,0 +1,14 @@
+html home page
+
+<!-- double curly braces needs to be together -->
+{{   Hithere   }}
+
+<a href="{% url 'about' %}">About page</a>
+
+
+<form action="{% url 'count' %}">
+<textarea cols="40" rows='10' name='full_text'></textarea>
+<br>
+<input type="submit" value="count"></input>
+</form>
+
